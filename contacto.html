@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+<link rel="stylesheet" type="text/css" href="codigo_css/estilos.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+</head>
+<body class="contacto">
+
+<header id="inicio-contacto">
+	<h1>¡GAMESTALGIA!</h1>
+    <h2>
+    ¡Colecci&oacute;n de VideoJuegos R&eacute;tro y M&aacute;s!
+	</h2>
+	<hr>
+	<br>
+<div class="indice">
+<h2>&Iacute;ndice</h2>
+<nav>
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+	    <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contenido.html">Contenido</a></li>
+	    <li><a href="acerca.html">Acerca de nosotros</a></li>
+	    <li><a href="contacto.html">Contactos</a></li>
+    </ul>
+</nav>
+</div>
+<br>
+</header>
+<main>
+	<h2>Contactos</h2>
+	<form action="mailto:contacto_gamestalgia@gmail.com" method="post">
+<fieldset>
+	<h3>Formulario de contacto</h3>
+
+	<label for="nombre">Nombre:</label>
+	<br>
+	<input type="text" id="nombre" name="nombre" required>
+    <br><br>
+	<label for="correo">Correo:</label>
+	<br>
+	<input type="email" id="correo" name="correo" required>
+    <br><br>
+	<label for="asunto">Asunto:</label>
+	<br>
+	<select id="asunto" name="asunto" required>
+		<option value="">Selecciona un asunto</option>
+		<option value="info">Informaci&oacute;n</option>
+		<option value="sugerencia">Sugerencia</option>
+		<option value="queja">Queja</option>
+	</select>
+	<br><br>
+	<label for="mensaje">Mensaje:</label>
+	<br>
+	<textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+    <br><br>
+	<button type="submit">Enviar</button>
+</fieldset>
+</form>
+
+</main>
+
+<footer>
+	<a href="#inicio-contacto" class="boton">volver arriba</a>
+</footer>
+
+</body>
+</html>
